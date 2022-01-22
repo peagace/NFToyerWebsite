@@ -27,7 +27,7 @@ const ServiceList = [
 class ServiceTwo extends Component{
     render(){
         let title = 'Por que um NFT?',
-        description = 'Não importa a sua idade, tão pouco o tamanho da sua carteira de criptomoedas, ter um NFToyer é a oportunidade de ter uma peçaúnica de sua estrela predileta em sua coleção. Tenha a posse de um artigo autenticado único de um artista consagrado, que não corre riscos de deterioração com o tempo, que não irá ocupar espaço em sua casa e faça parte do futuro dos investimentos.';
+        description = 'Não importa a sua idade, tão pouco o tamanho da sua carteira de criptomoedas, ter um NFToyer é a oportunidade de ter uma peça única de sua estrela predileta em sua coleção. Tenha a posse de um artigo autenticado único de um artista consagrado, que não corre riscos de deterioração com o tempo, que não irá ocupar espaço em sua casa e faça parte do futuro dos investimentos.';
         return(
             <React.Fragment>
                 <div className="row">

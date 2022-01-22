@@ -28,7 +28,6 @@ Blog Styles
                 opacity: 0;
                 @extend %transition;
                 @media #{$large-mobile} {
-                    opacity: 0.85;
                     top: 0;
                 }
 

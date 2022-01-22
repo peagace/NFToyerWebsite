@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import {FaInstagram , FaTwitter} from "react-icons/fa";
+import { ReactComponent as OpenSea } from '../../../public/assets/images/logo/opensea.svg'
 
 const SocialShare = [
-    {Social: <img src="/assets/images/logo/opensea.png"/> , link: 'https://opensea.io/nftoyer'},
+    {Social: <OpenSea src="/assets/images/logo/opensea.svg"/> , link: 'https://opensea.io/nftoyer'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/nftoyer'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/nftoyer/'},
 ]

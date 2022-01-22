@@ -7,7 +7,7 @@ class PageHelmet extends Component{
             <React.Fragment>
                 <Helmet>
                     <title>{this.props.pageTitle} | Action Figures em NFT </title>
-                    <meta name="description" content="NFToyer – Uma empresa Brasileira que cria e desenvolve NFTs de artistas e figuras públicas em formato de bonecos digitais." />
+                    <meta name="description" content="NFToyer – Uma empresa Brasileira que cria e desenvolve NFTs de artistas e figuras públicas em formato de Acton Figures." />
                 </Helmet>
             </React.Fragment>
         )
