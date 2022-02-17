@@ -9,6 +9,7 @@ import PageScrollTop from './component/PageScrollTop';
 
 // Home layout
 import Demo from './page-demo/Demo';
+import Soon from './page-demo/Soon';
 
 
 // Dark Home Layout 
@@ -36,20 +37,20 @@ class Root extends Component{
         return(
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
-                 {/* <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/> */}
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
+
+                        <Route path={`${process.env.PUBLIC_URL}/`} component={Soon}/>
+                        <Route path={`${process.env.PUBLIC_URL}/home`} component={Demo}/>
 
 
                         {/* Element Layot */}
-                        <Route exact path={`${process.env.PUBLIC_URL}/galeria`} component={Gallery}/>                        
-                        <Route exact path={`${process.env.PUBLIC_URL}/contato`} component={Contact}/>
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/galeria`} component={Gallery}/>                        
+                        <Route exact path={`${process.env.PUBLIC_URL}/contato`} component={Contact}/>*/}
                         
-                        <Route path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
-                        {/* <Route component={error404}/> */}
+                        
 
                     </Switch>
-                    {/* <Footer /> */}
+                    {/* <Footer/> */}
                 </PageScrollTop>
             </BrowserRouter>
         )

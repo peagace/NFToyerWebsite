@@ -58,7 +58,7 @@ class HeaderThree extends Component{
         }else if(logo === 'dark'){
             logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="NFToyer" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/nftoyer-logo.png" alt="NFToyer" />;
+            logoUrl = <img src="/assets/images/logo/nftoyer-logo.svg" alt="NFToyer" />;
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="NFToyer" />;
         }else{
