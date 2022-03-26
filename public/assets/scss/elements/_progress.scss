@@ -7,7 +7,7 @@ Progressbar Area
         margin-top: 38px;
         .title{
             font-size: 15px;
-            color: $heading-color;
+            color: white;
             @extend %fontWeight500;
             margin-bottom: 10px;
         }
@@ -15,11 +15,11 @@ Progressbar Area
             height: 4px;
             border-radius: 4px;
             box-shadow: none;
-            background-color: #f5f7fd;
+            background-color: #3F3F3F;
             overflow: visible;
             .progress-bar{
                 background-color: #f81f01;
-                background-image: linear-gradient(-224deg,#f81f01 0,#ee076e 100%);
+                background-image: linear-gradient(-224deg,#6C1FE5 0,#E825C4 100%);
                 position: relative;
                 color: #ee076e;
             }
@@ -28,12 +28,12 @@ Progressbar Area
         .label{
             position: absolute;
             right: 0;
-            top: 0;
+            top: 15px;
             @extend %fontWeight500;
-            color: $heading-color;
+            color: #c6c9d8;
             font-size: 15px;
             @media #{$sm-layout} {
-                top: -8px;
+                top: 15px;
             }
         }
         

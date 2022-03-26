@@ -4,37 +4,50 @@ import {Link} from "react-router-dom";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Collectible',
+        title: '#01 Chorão Skatista - Gold',
+        linkCompra: 'https://opensea.io/nftoyer'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Collectible',
+        title: '#01 Chorão Skatista - Silver',
+        linkCompra: 'https://opensea.io/nftoyer'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Collectible',
+        title: '#01 Chorão Skatista - Carbon',
+        linkCompra: 'https://opensea.io/nftoyer'
     },
     {
         image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Acessório',
+        title: '#01 Chorão Skatista - Acessório',
+        linkCompra: 'https://opensea.io/nftoyer'
     },
     {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: 'image-5',
+        category: 'Blueprint',
+        title: '#01 Chorão Skatista - Blueprint',
+        linkCompra: 'https://opensea.io/nftoyer'
     },
     {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: 'image-6',
+        category: 'Concept 2D',
+        title: '#01 Chorão Skatista - Concept',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    ,
+    {
+        image: 'image-1',
+        category: 'Mistery Box',
+        title: '#01 Chorão Skatista - Mistery Box',
+        linkCompra: 'https://opensea.io/nftoyer'
     }
 ]
 
-class PortfolioList extends Component{
+class PortfolioListChorao extends Component{
     render(){
         const {column , styevariation } = this.props;
         const list = PortfolioListContent.slice(0 , this.props.item);
@@ -52,11 +65,11 @@ class PortfolioList extends Component{
                                     <p>{value.category}</p>
                                     <h4><a href="/portfolio-details">{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                        <a className="rn-btn" target="_blank" rel="noopener noreferrer" href={value.linkCompra}>Comprar</a>
                                     </div>
                                 </div>
                             </div>
-                            <Link className="link-overlay" to="/portfolio-details"></Link>
+                            {/* <Link className="link-overlay" to="/portfolio-details"></Link> */}
                         </div>
                     </div>
                 ))}
@@ -65,4 +78,4 @@ class PortfolioList extends Component{
         )
     }
 }
-export default PortfolioList;
+export default PortfolioListChorao;

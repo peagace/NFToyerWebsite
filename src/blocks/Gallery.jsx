@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PageHelmet from "../component/common/Helmet";
-import Breadcrumb from "../elements/common/Breadcrumb";
+import Breadcrumb from "../elements/common/PortfolioHeader";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";

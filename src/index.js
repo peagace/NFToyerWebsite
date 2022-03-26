@@ -12,10 +12,12 @@ import Demo from './page-demo/Demo';
 import Soon from './page-demo/Soon';
 
 
-// Dark Home Layout 
+// Partner Page
+import PortfolioChorao from './elements/PortfolioChorao' 
 
 
 // Element Layout
+import HeaderThree from "./component/header/HeaderThree";
 
 import Contact from "./elements/Contact";
 
@@ -36,19 +38,12 @@ class Root extends Component{
     render(){
         return(
             <BrowserRouter basename={'/'}>
+               {/* <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" /> */}
                 <PageScrollTop>
                     <Switch>
-
-                        <Route path={`${process.env.PUBLIC_URL}/`} component={Soon}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Soon}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/chorao`} component={PortfolioChorao}/>
                         <Route path={`${process.env.PUBLIC_URL}/home`} component={Demo}/>
-
-
-                        {/* Element Layot */}
-                        {/* <Route exact path={`${process.env.PUBLIC_URL}/galeria`} component={Gallery}/>                        
-                        <Route exact path={`${process.env.PUBLIC_URL}/contato`} component={Contact}/>*/}
-                        
-                        
-
                     </Switch>
                     {/* <Footer/> */}
                 </PageScrollTop>

@@ -1,11 +1,14 @@
 import React from 'react';
 import Helmet from "../component/common/Helmet";
-import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaTwitter, FaDiscord} from "react-icons/fa";
+import {SiTiktok } from "react-icons/si";
 
 const SocialShare = [
-    { Social: <img src="/assets/images/logo/opensea-white.svg" />, link: 'https://opensea.io/nftoyer' },
-    { Social: <FaTwitter />, link: 'https://twitter.com/nftoyer' },
-    { Social: <FaInstagram />, link: 'https://www.instagram.com/nftoyer/' },
+    {Social: <img src="/assets/images/logo/opensea-white.svg"/> , link: 'https://opensea.io/nftoyer'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/nftoyer'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/nftoyer/'},
+    {Social: <FaDiscord /> , link: 'https://discord.gg/QSZbAntmmM'},
+    {Social: <SiTiktok /> , link: 'https://www.tiktok.com/@nftoyer'},
 ]
 
 const Soon = () => {

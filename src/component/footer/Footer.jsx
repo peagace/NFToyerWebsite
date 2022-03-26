@@ -1,11 +1,14 @@
 import React, { Component } from "react";
-import {FaInstagram , FaTwitter} from "react-icons/fa";
+import {FaInstagram , FaTwitter, FaDiscord} from "react-icons/fa";
 import { ReactComponent as OpenSea } from '../../../public/assets/images/logo/opensea.svg'
+import {SiTiktok } from "react-icons/si";
 
 const SocialShare = [
     {Social: <OpenSea src="/assets/images/logo/opensea.svg"/> , link: 'https://opensea.io/nftoyer'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/nftoyer'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/nftoyer/'},
+    {Social: <FaDiscord /> , link: 'https://discord.gg/QSZbAntmmM'},
+    {Social: <SiTiktok /> , link: 'https://www.tiktok.com/@nftoyer'},
 ]
 
 class Footer extends Component{
@@ -19,7 +22,7 @@ class Footer extends Component{
                                 <div className="footer-left">
                                     <div className="inner">
                                         <span>Faça parte do Metaverso</span>
-                                        <h2>Venha ser <br /> um NFToyer!</h2>
+                                        <h2>Venha ser <br /> um NFTOYER!</h2>
                                         <a className="rn-button-style--2" target="_blank" rel="noopener noreferrer" href='https://opensea.io/nftoyer'>
                                             <span>Ver coleção</span>
                                         </a>
@@ -63,7 +66,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>© 2021 NFToyer. Todos direitos reservados.</p>
+                                                <p>© {(new Date().getFullYear())} NFTOYER. Todos direitos reservados.</p>
                                             </div>
                                         </div>
                                     </div>

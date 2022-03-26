@@ -11,7 +11,7 @@
         width: auto;
         padding-left: 50px;
         padding-right: 50px;
-        z-index: 999;
+        z-index: 98;
         @media #{$lg-layout} {
             padding-left: 30px;
             padding-right: 30px;
@@ -136,7 +136,7 @@
     &.header--fixed {
         position: absolute;
         top: 0;
-        z-index: 999;
+        z-index: 98;
         padding-left: 50px;
         padding-right: 50px;
         width: 100%;
@@ -337,7 +337,7 @@
                         position: fixed;
                         top: 0;
                         right: -61vw;
-                        z-index: 99;
+                        z-index: 98;
                         padding: 55px;
                         background: #ffffff;
                         -webkit-transition: all 0.8s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -352,7 +352,7 @@
                         position: fixed;
                         top: 0;
                         right: -61vw;
-                        z-index: 99;
+                        z-index: 98;
                         padding: 55px;
                         background: #ffffff;
                         -webkit-transition: all 0.8s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -522,7 +522,7 @@
             .close-menu {
                 opacity: 1;
                 visibility: visible;
-                z-index: 9999;
+                z-index: 98;
                 span {
                     color: #000000;
                     font-size: 30px;

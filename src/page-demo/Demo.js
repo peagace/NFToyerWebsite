@@ -10,13 +10,14 @@ import BlogContent from "../elements/blog/BlogContent";
 import About from "../component/HomeLayout/homeOne/About";
 import BrandTwo from "../elements/BrandTwo";
 import ContactOne from "../elements/contact/ContactOne";
+import ProgressOne from "./../blocks/progressbar/ProgressOne";
 
 const SlideList = [
     {
         textPosition: 'text-left',
         category: 'SEJA BEM-VINDO AO METAVERSO!',
         description: '',
-        buttonText: 'Ver Coleção',
+        buttonText: 'Ver Coleções',
         buttonLink: 'https://opensea.io/nftoyer'
     }
 ]
@@ -96,15 +97,15 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                                     <div className="blog blog-style--1">
                                         <div className="thumbnail">
-                                            <a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer">
+                                            <a href={value.link}>
                                                 <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images" />
                                             </a>
                                         </div>
                                         <div className="content">
                                             <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer">{value.title}</a></h4>
+                                            <h4 className="title"><a href={value.link}>{value.title}</a></h4>
                                             <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer">Ver coleção</a>
+                                                <a className="rn-btn text-white" href={value.link} rel="noopener noreferrer">Ver coleção</a>
                                             </div>
                                         </div>
                                     </div>
@@ -116,37 +117,101 @@ const PortfolioLanding = () => {
             </div>
             {/* End Blog Area */}
 
-            {/* Start Brand Area */}
-            <div id="parceiros" className="fix">
-            <div className="rn-brand-area ptb--120 bg_color--5">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="section-title text-center service-style--3 mb--30">
-                                <h2 className="title">Parceiros</h2>
-                                <p>Empresas e artistas que já são NFToyers dentro do Metaverso.</p>
+
+            {/* PARCEIROS E MARCAS*/}
+            {/* <div id="parceiros" className="fix">
+                <div className="rn-brand-area ptb--120 bg_color--5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title text-center service-style--3 mb--30">
+                                    <h2 className="title">Parceiros</h2>
+                                    <p>Empresas e artistas que já são NFToyers dentro do Metaverso.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-12 mt--40">
+                                <BrandTwo />
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-12 mt--40">
-                            <BrandTwo/>
+                </div>
+            </div> */}
+            {/* PARCEIROS E MARCAS*/}
+
+            {/* ROADMAP */}
+            <div id="roadmap" className="fix">
+                <div className="rn-brand-area ptb--120 bg_color--5" >
+                    <div className="container" >
+                        <div className="row" >
+                            <div className="col-lg-12" >
+                                <div className="section-title text-left service-style--3 mb--30" >
+                                    <h2 className="title">Nosso Roadmap</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row" >
+                            <div className="col-lg-12" >
+                                <div className="section-title text-left service-style--3 mb--30" >
+                                    <ProgressOne ProgressStyle="progress-bar--1" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            {/* ROADMAP */}
+
+            {/* FAQ */}
+            <div id="faq" className="fix">
+                <div className="rn-brand-area ptb--120 bg_color--5" >
+                    <div className="container" >
+                        <div className="row" >
+                            <div className="col-lg-12" >
+                                <div className="section-title text-center service-style--3 mb--30" >
+                                    <h2 className="title">FAQ</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row" >
+                            <div className="col-lg-12" >
+                                <div className="section-title text-left service-style--3 mb--30" >
+
+                                    <h4 className="title">P. O que é blockchain?</h4>
+                                    <p>R. Blockchain é uma espécie de livro-razão digital compartilhado e imutável que facilita o processo de registro de transações e o rastreamento de ativos em uma rede, o que reduz os riscos e custos para todos os usuários.</p>
+
+                                    <h4 className="title">P. O que é MetaMask?</h4>
+                                    <p>Metamask é uma carteira de criptoativos que precisa ser instalada como extensão em seu navegador para comprar seu NFTOYER Seu NFT será armazenado no endereço da sua carteira. Após a criação da sua Metamask, o Opensea solicitará sua autorização para acessá-la, então você estará pronto para negociar seus NFTs. <a href="https://metamask.io/" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Saiba mais sobre Metamask</a> e como é fácil de usar!</p>
+
+                                    <h4 className="title">P. O que é OpenSea?</h4>
+                                    <p>Atualmente, Opensea é o site mais popular do mundo para compra, venda e negociação de criptoativos.</p>
+
+                                    <h4 className="title">P. O que é mint?</h4>
+                                    <p>Mint é o processo computacional de validação de informações para a criação de um token na blockchain.</p>
+
+                                    <h4 className="title">P. Como posso saber mais sobre o projeto?</h4>
+                                    <p>Fique atento em nossas redes sociais, estaremos publicando todas as novidades diariamente!<a href="https://discord.gg/QSZbAntmmM" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}> Participe também da nossa comunidade no Discord!</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            {/* End Brand Area */}
+            {/* FAQ */}
+
+
 
             {/* Start Contact Page Area  */}
             <div id="contato" className="fix">
-            <div className="rn-contact-page ptb--120 bg_color--1">
-                <ContactOne />
-            </div>
+                <div className="rn-contact-page ptb--120 bg_color--1">
+                    <ContactOne />
+                </div>
             </div>
             {/* End Contact Page Area  */}
 
-            <Footer/>
+            <Footer />
 
             {/* Start Back To Top */}
             <div className="backto-top">

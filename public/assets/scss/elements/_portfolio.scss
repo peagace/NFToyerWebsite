@@ -36,7 +36,7 @@
 
         &::before{
             background-color: #f6004c;
-            background-image: linear-gradient(#f6004c 10%, #000000 100%);
+            background: linear-gradient(to bottom, rgba(142, 94, 239, 0.746), #000000 85%);
             position: absolute;
             content: "";
             top: 0;
@@ -79,6 +79,14 @@
             background-image: url(/assets/images/portfolio/portfolio-4.jpg);
         }
 
+        &.image-5 {
+            background-image: url(/assets/images/portfolio/portfolio-5.jpg);
+        }
+
+        &.image-6 {
+            background-image: url(/assets/images/portfolio/portfolio-6.jpg);
+        }
+
         &::after{
             background-color: rgba(45,45,45,.35);
             position: absolute;
@@ -117,9 +125,18 @@
             background-image: url(/assets/images/portfolio/portfolio-2.jpg);
         }
         &.image-3{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+            background-image: url(/assets/images/portfolio/portfolio-3.jpg);
         }
         &.image-4 {
+            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+        }
+        &.image-5 {
+            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+        }
+        &.image-6 {
+            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+        }
+        &.image-7 {
             background-image: url(/assets/images/portfolio/portfolio-1.jpg);
         }
     }
@@ -204,9 +221,7 @@
             &.image-6 {
                 background-image: url(/assets/images/portfolio/interior/portfolio-6.jpg);
             }
-            &.image-7 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-7.jpg);
-            }
+
         }
         .bg-blr-image{
             background-image: url(/assets/images/portfolio/interior/portfolio-1.jpg);
@@ -231,9 +246,7 @@
             &.image-6 {
                 background-image: url(/assets/images/portfolio/interior/portfolio-6.jpg);
             }
-            &.image-7 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-7.jpg);
-            }
+
         }
     }
 
@@ -341,15 +354,7 @@
             &.image-7 {
                 background-image: url(/assets/images/portfolio/portfolio-static-07.jpg);
             }
-            &.image-8 {
-                background-image: url(/assets/images/portfolio/portfolio-static-08.jpg);
-            }
-            &.image-9 {
-                background-image: url(/assets/images/portfolio/portfolio-static-09.jpg);
-            }
-            &.image-10 {
-                background-image: url(/assets/images/portfolio/portfolio-static-10.jpg);
-            }
+           
             &::after {
                 display: none;
             }
