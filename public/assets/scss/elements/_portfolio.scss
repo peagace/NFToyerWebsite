@@ -87,6 +87,10 @@
             background-image: url(/assets/images/portfolio/portfolio-6.jpg);
         }
 
+        &.image-7 {
+            background-image: url(/assets/images/portfolio/portfolio-7.jpg);
+        }
+
         &::after{
             background-color: rgba(45,45,45,.35);
             position: absolute;
@@ -687,9 +691,9 @@
             }
             &.slick-prev{
                 left: 0;
-                background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-                background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
-                background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+                background: -moz-linear-gradient(left,  rgb(0, 0, 1) 0%, rgba(0,0,0,0) 100%);
+                background: -webkit-linear-gradient(left,  rgb(0, 0, 1) 0%,rgba(0,0,0,0) 100%);
+                background: linear-gradient(to right,  rgb(0, 0, 1) 0%,rgba(0,0,0,0) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
                 &::before{
                     content: url(/assets/images/icons/slick-arrow-left.png);
@@ -797,7 +801,7 @@ Portfolio Style Three
                 @extend %transition;
             }
             &::after {
-                background: linear-gradient(to bottom, #fc004d 0, #000000 100%);
+                background: linear-gradient(to bottom, rgba(142, 94, 239, 0.746), #000000 85%);
                 position: absolute;
                 left: 0;
                 right: 0;
@@ -808,7 +812,7 @@ Portfolio Style Three
                 opacity: 0;
                 @extend %transition;
                 @media #{$large-mobile} {
-                    opacity: 0.85;
+                    
                     top: 0;
                 }
 
@@ -823,15 +827,16 @@ Portfolio Style Three
         z-index: 3;
         @extend %transition;
         @media #{$large-mobile} {
-            bottom: 0;
+            bottom: 0;            
         }
         @media #{$large-mobile} {
             padding: 30px 20px;
+            background: linear-gradient(to bottom, #00000000 0%, #000000 95%);
         }
         &::before {
             position: absolute;
             content: "";
-            background: linear-gradient(to bottom, rgba(0,0,0,0.0) 0, #000000 70%);
+            background: linear-gradient(to bottom, #00000000 0%, #000000 65%);
             left: 0;
             top: 0;
             width: 100%;
@@ -847,7 +852,8 @@ Portfolio Style Three
             &.portfoliotype{
                 font-size: 14px;
                 margin-bottom: 5px;
-                color: #c6c9d8;
+                color: #eeeeee;
+                text-shadow: 1px 1px 10px black
             }
         }
         h4{
@@ -859,6 +865,7 @@ Portfolio Style Three
                     font-weight: 500;
                     line-height: 36px;
                     @extend %transition;
+                    text-shadow: 1px 1px 10px black
                 }
             }
         }
@@ -868,6 +875,7 @@ Portfolio Style Three
             transition: 0.7s;
             opacity: 0;
             visibility: hidden;
+            text-shadow: 1px 1px 10px black;
             
             @media #{$large-mobile} {
                 margin-top: 22px;

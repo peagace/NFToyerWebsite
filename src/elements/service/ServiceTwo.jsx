@@ -48,7 +48,7 @@ class ServiceTwo extends Component {
 
     render() {
         let title = "O que são NFT's?",
-            description = 'Não importa a sua idade, tão pouco o tamanho da sua carteira de criptomoedas, ter um NFToyer é a oportunidade de ter uma peça única de sua estrela predileta em sua coleção. Tenha a posse de um artigo autenticado único de um artista consagrado, que não corre riscos de deterioração com o tempo, que não irá ocupar espaço em sua casa e faça parte do futuro dos investimentos.';
+            description = 'Não importa a sua idade, tão pouco o tamanho da sua carteira de criptomoedas, ter um NFTOYER é a oportunidade de ter uma peça única de sua estrela predileta em sua coleção. Tenha a posse de um artigo autenticado único de uma estrela consagrada, que não corre riscos de deterioração com o tempo, que não irá ocupar espaço em sua casa e faça parte do futuro dos investimentos.';
 
         return (
             <React.Fragment>
@@ -98,8 +98,8 @@ class ServiceTwo extends Component {
                                     <h4 style={{maxWidth:'95%'}}>4. Conecte sua carteira MetaMask com o OpenSea</h4>
                                     <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}>Para <a href="https://opensea.io/login?referrer=%2Faccount" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>criar sua conta OpenSea</a> é necessário conectar a sua carteira MetaMask.</p>
 
-                                    <h4 style={{maxWidth:'95%'}}>5. Compre o se NFTOYER</h4>
-                                    <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}><a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Escolha o seu NFTOYER</a> que quer comprar e finalize as transações a partir da MetaMask.</p>
+                                    <h4 style={{maxWidth:'95%'}}>5. Compre o seu NFTOYER</h4>
+                                    <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}><a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Escolha o seu NFTOYER</a> e finalize as transações a partir da MetaMask.</p>
 
                                     <div className="service-btn">
                                         <a className="btn-transparent rn-btn-dark" onClick={this.handleCloseModal} style={{ cursor: 'pointer' }}><span className="text">Fechar</span></a>

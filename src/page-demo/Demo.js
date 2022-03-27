@@ -68,22 +68,18 @@ const PortfolioLanding = () => {
                 </div>
             </div>
 
-            <div id="NFT" className="service-area ptb--80  bg_image bg_image--3">
-                <div className="container">
-                    <ServiceTwo />
-                </div>
-            </div>
+            
 
 
             {/* Start Blog Area */}
             <div id="galeria" className="fix">
-                <div className="rn-blog-area pt--120 bg_color--1 mb-dec--30">
+                <div className="rn-blog-area pt--120 bg_color--5 mb-dec--30" style={{marginBottom:'50px'}}>
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-left">
                                     <h2>Últimas coleções</h2>
-                                    <p>Por meio da plataforma Opensea, compartilhamos nossos últimos lançamentos das personalidades brasileiras do mundo pop.</p>
+                                    <p>Comerializamos nossos NFTOYERs pela plataforma OpenSea.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -116,6 +112,12 @@ const PortfolioLanding = () => {
                 </div>
             </div>
             {/* End Blog Area */}
+
+            <div id="NFT" className="service-area ptb--80  bg_image bg_color--1">
+                <div className="container">
+                    <ServiceTwo />
+                </div>
+            </div>
 
 
             {/* PARCEIROS E MARCAS*/}
@@ -165,7 +167,7 @@ const PortfolioLanding = () => {
 
             {/* FAQ */}
             <div id="faq" className="fix">
-                <div className="rn-brand-area ptb--120 bg_color--5" >
+                <div className="rn-brand-area ptb--120 bg_color--6" >
                     <div className="container" >
                         <div className="row" >
                             <div className="col-lg-12" >
@@ -178,19 +180,19 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12" >
                                 <div className="section-title text-left service-style--3 mb--30" >
 
-                                    <h4 className="title">P. O que é blockchain?</h4>
-                                    <p>R. Blockchain é uma espécie de livro-razão digital compartilhado e imutável que facilita o processo de registro de transações e o rastreamento de ativos em uma rede, o que reduz os riscos e custos para todos os usuários.</p>
+                                    <h4 className="title">O que é blockchain?</h4>
+                                    <p>Blockchain é uma espécie de livro-razão digital compartilhado e imutável que facilita o processo de registro de transações e o rastreamento de ativos em uma rede, o que reduz os riscos e custos para todos os usuários.</p>
 
-                                    <h4 className="title">P. O que é MetaMask?</h4>
+                                    <h4 className="title">O que é MetaMask?</h4>
                                     <p>Metamask é uma carteira de criptoativos que precisa ser instalada como extensão em seu navegador para comprar seu NFTOYER Seu NFT será armazenado no endereço da sua carteira. Após a criação da sua Metamask, o Opensea solicitará sua autorização para acessá-la, então você estará pronto para negociar seus NFTs. <a href="https://metamask.io/" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Saiba mais sobre Metamask</a> e como é fácil de usar!</p>
 
-                                    <h4 className="title">P. O que é OpenSea?</h4>
+                                    <h4 className="title">O que é OpenSea?</h4>
                                     <p>Atualmente, Opensea é o site mais popular do mundo para compra, venda e negociação de criptoativos.</p>
 
-                                    <h4 className="title">P. O que é mint?</h4>
+                                    <h4 className="title">O que é mint?</h4>
                                     <p>Mint é o processo computacional de validação de informações para a criação de um token na blockchain.</p>
 
-                                    <h4 className="title">P. Como posso saber mais sobre o projeto?</h4>
+                                    <h4 className="title">Como posso saber mais sobre o projeto?</h4>
                                     <p>Fique atento em nossas redes sociais, estaremos publicando todas as novidades diariamente!<a href="https://discord.gg/QSZbAntmmM" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}> Participe também da nossa comunidade no Discord!</a></p>
 
                                 </div>

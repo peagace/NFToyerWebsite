@@ -8,8 +8,6 @@ import { Link } from "react-router-dom";
 class About extends Component {
 
     render() {
-        let title = 'Sobre',
-            description = 'Somos a primeira empresa Brasileira de desenvolvimento de figuras colecionáveis digitais licenciadas oficiais em NFT de estrelas e celebridades da cultura pop nacional.';
         return (
             <React.Fragment>
                 <div className="about-wrapper">
@@ -21,8 +19,7 @@ class About extends Component {
 
                                     <Suspense fallback={<Loader />}>
                                         <Canvas camera={{ fov: 45, near: 0.1, far: 1000, position: [0, 5, 25] }} flat dpr={[1, 2]} >
-                                            {/* <directionalLight color="#4f00a3" position={[30, 0, 5]} intensity={10} />
-                                                
+                                            {/* <directionalLight color="#4f00a3" position={[30, 0, 5]} intensity={10} />                                                
                                                 <directionalLight color="#4f00a3" position={[2, 1, -15]} intensity={50}/> */}
                                             {/* <directionalLight color="purple" position={[5, 0, 10]}  intensity={1}/> */}
                                             <pointLight position={[10, 5, -10]} color="#4f00a3" intensity={10} />
@@ -42,8 +39,8 @@ class About extends Component {
                             <div className="col-lg-7 col-md-12" style={{ paddingTop: '80px' }}>
                                 <div className="about-inner inner">
                                     <div className="section-title">
-                                        <h2 className="title">{title}</h2>
-                                        <p className="description">{description}</p>
+                                        <h2 className="title">Sobre</h2>
+                                        <p className="description">Somos a primeira empresa brasileira de<spam style={{fontWeight:'900'}}> Figuras Colecionáveis em NFT, autenticadas oficialmente</spam> por estrelas da cultura pop nacional.</p>
 
                                         <div className="container">
                                             <div className="row">
@@ -73,18 +70,13 @@ class About extends Component {
                                     </div>
 
                                     <div className="row mt--30 mt_sm--10">
-                                        <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
-                                                <h3 className="title">NFTs</h3>
-                                                <p>NFT (non-fungibletoken) são ativos criptográficos não fungíveis, autenticando a propriedade digital através de um registro em uma blockchain. Graças a essa tecnologia, uma obra de arte digital pode ser considerada original e única, despertando o interesse de colecionadores de arte no mundo todo. Um mercado que movimentou mais de US$13,2 bilhões em 2021.</p>
+                                                <h3 className="title">NFTOYERs</h3>
+                                                <p  style={{textAlign:"justify"}}>Tem a marra brasileira, com um traço único, moderno e estilizado. Em cada produto é possível ver a personalidade e a atitude da celebridade transformada em um NFTOYER. Cada figura é comercializada dentro de sua própria embalagem e traz consigo alguns itens que formam o conjunto daquela edição.</p>
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div className="about-us-list">
-                                                <h3 className="title">NFToyers</h3>
-                                                <p>São os nossos bonecos digitais! Artistas e celebridades convertidos ao Metaverso, de uma forma divertida e descontraída, com um toque de malandragem!</p>
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>

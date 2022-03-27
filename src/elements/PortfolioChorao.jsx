@@ -1,14 +1,102 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import Slider from "react-slick";
-import { slickDot } from "../page-demo/script";
 import PortfolioHeader from "./common/PortfolioHeader";
-import PortfolioListChorao from "./portfolio/PortfolioImagesChorao";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import HeaderThree from "../component/header/HeaderThree";
+
+const ChoraoSkatistaList = [
+    {
+        image: '1',
+        category: 'Figura colecionável',
+        title: '#01 Chorão Skatista - Gold',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    {
+        image: '2',
+        category: 'Figura colecionável',
+        title: '#01 Chorão Skatista - Silver',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    {
+        image: '3',
+        category: 'Figura colecionável',
+        title: '#01 Chorão Skatista - Carbon',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    {
+        image: '4',
+        category: 'Acessório',
+        title: '#01 Chorão Skatista - Accessory',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    {
+        image: '5',
+        category: 'Desenho técnico',
+        title: '#01 Chorão Skatista - Blueprint',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    {
+        image: '6',
+        category: 'Conceito',
+        title: '#01 Chorão Skatista - Concept',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    ,
+    {
+        image: '7',
+        category: 'Item misterioso',
+        title: '#01 Chorão Skatista - Mystery Box',
+        linkCompra: 'https://opensea.io/nftoyer'
+    }
+];
+
+// const ChoraoGrafiteiroList = [
+//     {
+//         image: '1',
+//         category: 'Figura colecionável',
+//         title: '#02 Chorão Grafiteiro - Gold',
+//         linkCompra: 'https://opensea.io/nftoyer'
+//     },
+//     {
+//         image: '2',
+//         category: 'Figura colecionável',
+//         title: '#02 Chorão Grafiteiro - Silver',
+//         linkCompra: 'https://opensea.io/nftoyer'
+//     },
+//     {
+//         image: '3',
+//         category: 'Figura colecionável',
+//         title: '#02 Chorão Skatista - Carbon',
+//         linkCompra: 'https://opensea.io/nftoyer'
+//     },
+//     {
+//         image: '4',
+//         category: 'Acessório',
+//         title: '#012 Chorão Skatista - Accessory',
+//         linkCompra: 'https://opensea.io/nftoyer'
+//     },
+//     {
+//         image: '5',
+//         category: 'Desenho técnico',
+//         title: '#01 Chorão Skatista - Blueprint',
+//         linkCompra: 'https://opensea.io/nftoyer'
+//     },
+//     {
+//         image: '6',
+//         category: 'Conceito',
+//         title: '#01 Chorão Skatista - Concept',
+//         linkCompra: 'https://opensea.io/nftoyer'
+//     },
+//     ,
+//     {
+//         image: '7',
+//         category: 'Item misterioso',
+//         title: '#01 Chorão Skatista - Mystery Box',
+//         linkCompra: 'https://opensea.io/nftoyer'
+//     }
+// ]
 
 class PortfolioChorao extends Component {
     render() {
@@ -24,30 +112,80 @@ class PortfolioChorao extends Component {
                 <div className="active-dark">
                     <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
 
-                    {/* Start Portfolio Area */}
-                    <div className="portfolio-area ptb--120 bg_color--1">
-                        <div className="portfolio-sacousel-inner">
+                    {/*#01 Chorão Skatista*/}
+                    <div className="creative-portfolio-wrapper ptb--120 bg_color--1">
+                        <div className="container plr--10">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className="section-title text-left service-style--3 mb--30">
-                                            {/* <div style={{backgroundColor:'blue', display:'flex', justifyContent:'center', alignSelf:"center"}}>
-                                                <h2 className="title">01</h2>
-                                                <svg width="260" height="224.24038" viewBox="0 0 260 224.24038" >
-                                                    <polygon class="cls-1" points="250.114 224.24 0 224.24 9.886 0 260 0 250.114 224.24" style={{fill:'#e0222c'}}/>
-                                                </svg>
-                                            </div> */}
-                                            <h2 className="title">#01 Chorão Skatista</h2>
+                                            <h2 className="title"><spam style={{ color: '#6C1FE5' }}>#01</spam> Chorão Skatista</h2>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <PortfolioListChorao styevariation="text-left mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" />
+
+                                <div className="row row--5">
+                                    {ChoraoSkatistaList.map((value, i) => (
+                                        <div className="col-lg-4 col-md-6 col-12" key={i}>
+                                            <div className="portfolio-style--3">
+                                                <div className="thumbnail">
+                                                    <a href={value.linkCompra}>
+                                                        <img className="w-100" src={`/assets/images/portfolio/portfolio-${value.image}.jpg`} alt="#01 Chorão Skatista" />
+                                                    </a>
+                                                </div>
+                                                <div className="content">
+                                                    <p className="portfoliotype">{value.category}</p>
+                                                    <h4 className="title"><a href={value.linkCompra}>{value.title}</a></h4>
+                                                    <div className="portfolio-btn">
+                                                        <a className="rn-btn text-white" target="_blank" rel="noopener noreferrer" href={value.linkCompra}>Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* End Portfolio Area */}
+                    {/*#01 Chorão Skatista*/}
+
+                    {/*#02 Chorão Grafiteiro*/}
+                    {/* <div className="creative-portfolio-wrapper ptb--120 bg_color--1">
+                        <div className="container plr--10">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <div className="section-title text-left service-style--3 mb--30">
+                                            <h2 className="title"><spam style={{ color: '#6C1FE5' }}>#02</spam> Chorão Grafiteiro</h2>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="row row--5">
+                                    {ChoraoGrafiteiroList.map((value, i) => (
+                                        <div className="col-lg-4 col-md-6 col-12" key={i}>
+                                            <div className="portfolio-style--3">
+                                                <div className="thumbnail">
+                                                    <a href={value.linkCompra}>
+                                                        <img className="w-100" src={`/assets/images/portfolio/portfolio-${value.image}.jpg`} alt="#01 Chorão Skatista" />
+                                                    </a>
+                                                </div>
+                                                <div className="content">
+                                                    <p className="portfoliotype">{value.category}</p>
+                                                    <h4 className="title"><a href={value.linkCompra}>{value.title}</a></h4>
+                                                    <div className="portfolio-btn">
+                                                        <a className="rn-btn text-white" target="_blank" rel="noopener noreferrer" href={value.linkCompra}>Comprar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
+                    {/*#02 Chorão Grafiteiro*/}
+
 
                     {/* Start Back To Top */}
                     <div className="backto-top">
@@ -56,7 +194,9 @@ class PortfolioChorao extends Component {
                         </ScrollToTop>
                     </div>
                     {/* End Back To Top */}
+
                     <Footer />
+
                 </div>
             </React.Fragment>
         )

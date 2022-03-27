@@ -139,7 +139,7 @@
                 a{
                     color: rgba(29, 29, 36, 1);
                     &:hover{
-                        color: $theme-color;
+                        color: '$theme-color';
                     }
                 }
             }

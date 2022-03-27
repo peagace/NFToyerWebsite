@@ -21,10 +21,10 @@ class Footer extends Component{
                             <div className="col-lg-6">
                                 <div className="footer-left">
                                     <div className="inner">
-                                        <span>Faça parte do Metaverso</span>
-                                        <h2>Venha ser <br /> um NFTOYER!</h2>
-                                        <a className="rn-button-style--2" target="_blank" rel="noopener noreferrer" href='https://opensea.io/nftoyer'>
-                                            <span>Ver coleção</span>
+                                        <span style={{textShadow:'1px 1px 3px #211C33'}}>Faça parte do Metaverso</span>
+                                        <h2 style={{textShadow:'1px 1px 15px #211C33'}}>VENHA SER <br/>UM NFTOYER!</h2>
+                                        <a className="rn-button-style--2" target="_blank" rel="noopener noreferrer" href='https://opensea.io/nftoyer' style={{boxShadow:'1px 1px 3px #211C33'}}>
+                                            <span style={{textShadow:'1px 1px 3px #211C33'}}>Ver coleção</span>
                                         </a>
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@ class Footer extends Component{
                                         {/* Start Single Widget  */}
                                         <div className="col-lg-6 col-sm-6 col-12">
                                             <div className="footer-link">
-                                                <h4>NFToyer</h4>
+                                                <h4>NFTOYER</h4>
                                                 <ul className="ft-link">
                                                     <li><a href="/">Home</a></li>
                                                     <li><a href="#galeria">Galeria</a></li>
