@@ -103,7 +103,7 @@ class PortfolioChorao extends Component {
         return (
             <React.Fragment>
 
-                <PageHelmet pageTitle='NTFTOYER: Chorão - Charlie Brown Jr.' />
+                <PageHelmet pageTitle='NTFTOYER | Chorão Charlie Brown Jr.' />
 
 
                 {/* Start Breadcrump Area */}

@@ -27,7 +27,7 @@ const PortfolioLanding = () => {
     const PostList = BlogContent.slice(0, 3);
     return (
         <div className="active-dark">
-            <Helmet pageTitle="NFToyer" />
+            <Helmet pageTitle="NFTOYER |" />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Slider Area   */}
@@ -67,9 +67,6 @@ const PortfolioLanding = () => {
                     <About />
                 </div>
             </div>
-
-            
-
 
             {/* Start Blog Area */}
             <div id="galeria" className="fix">

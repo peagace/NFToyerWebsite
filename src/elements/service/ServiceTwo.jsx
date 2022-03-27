@@ -47,7 +47,7 @@ class ServiceTwo extends Component {
     }
 
     render() {
-        let title = "O que são NFT's?",
+        let title = "Por que ter um NFTOYER?",
             description = 'Não importa a sua idade, tão pouco o tamanho da sua carteira de criptomoedas, ter um NFTOYER é a oportunidade de ter uma peça única de sua estrela predileta em sua coleção. Tenha a posse de um artigo autenticado único de uma estrela consagrada, que não corre riscos de deterioração com o tempo, que não irá ocupar espaço em sua casa e faça parte do futuro dos investimentos.';
 
         return (
