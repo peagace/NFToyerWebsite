@@ -21,13 +21,42 @@ const SlideList = [
         buttonLink: 'https://opensea.io/nftoyer'
     }
 ]
+
+var countDownDate = new Date("May 5, 2022 19:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
 const PortfolioLanding = () => {
     let title = 'About Me',
         description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
     const PostList = BlogContent.slice(0, 3);
     return (
         <div className="active-dark">
-            <Helmet pageTitle="NFTOYER |" />
+            
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
             {/* Start Slider Area   */}
@@ -41,10 +70,10 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Action Figures <br />em NFT para <br />
+                                            <h1 className="title">Figuras colecionáveis<br />em NFT para <br />
                                                 <TextLoop>
                                                     <span> Colecionar.</span>
-                                                    <span> Investir.</span>
+                                                    <span> Presentear.</span>
                                                     <span> Compartilhar.</span>
                                                 </TextLoop>{" "}
                                             </h1>
@@ -66,7 +95,15 @@ const PortfolioLanding = () => {
                 <div className="about-area about-position-top pb--120 bg_color--1">
                     <About />
                 </div>
+                <div style={{background: 'rgb(171,122,170)', background: 'radial-gradient(circle, rgba(171,122,170,1) 0%, rgba(108,31,229,1) 100%)', minHeight:'360px', position: 'relative'}}>
+                    <div style={{ margin: '0',  position: 'absolute', top: '50%',  transform: 'translateY(-50%)', width:'100%'}}>
+                        <h3 style={{textAlign:'center', fontWeight:'200'}}>LANÇAMENTO OFICIAL</h3>
+                        <h2 style={{textAlign:'center'}}>#01 CHORÃO SKATISTA</h2>
+                        <h3 id="demo" style={{textAlign:'center', color:"white"}}/>
+                    </div>
+                </div>
             </div>
+
 
             {/* Start Blog Area */}
             <div id="galeria" className="fix">
@@ -75,7 +112,7 @@ const PortfolioLanding = () => {
                         <div className="row align-items-end">
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-left">
-                                    <h2>Últimas coleções</h2>
+                                    <h2>Coleções</h2>
                                     <p>Comerializamos nossos NFTOYERs pela plataforma OpenSea.</p>
                                 </div>
                             </div>
@@ -140,7 +177,7 @@ const PortfolioLanding = () => {
             {/* PARCEIROS E MARCAS*/}
 
             {/* ROADMAP */}
-            <div id="roadmap" className="fix">
+            {/* <div id="roadmap" className="fix">
                 <div className="rn-brand-area ptb--120 bg_color--5" >
                     <div className="container" >
                         <div className="row" >
@@ -159,8 +196,40 @@ const PortfolioLanding = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* ROADMAP */}
+
+            {/* Start About Area  */}
+            <div className="rn-about-area ptb--120 bg_color--5">
+                <div className="rn-about-wrapper">
+                    <div className="container">
+                        <div className="row row--35 align-items-center">
+                            <div className="col-lg-7">
+                                <div className="about-inner inner">
+                                    <div className="section-title">
+                                        <h2 className="title">Roadmap</h2>
+                                        <p className="description">Queremos criar o universo NFTOYER®, onde colecionar figuras digitais com a experiência de produtos físicos é só o começo.</p>
+                                    </div>
+                                    <div className="row mt--30">
+                                        <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div className="about-us-list">                                
+                                                <ProgressOne/>   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-5 mt_md--40 mt_sm--40">
+                                <div className="thumbnail">
+                                    <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* End About Area  */}
 
             {/* FAQ */}
             <div id="faq" className="fix">
@@ -177,20 +246,21 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12" >
                                 <div className="section-title text-left service-style--3 mb--30" >
 
-                                    <h4 className="title">O que é blockchain?</h4>
-                                    <p>Blockchain é uma espécie de livro-razão digital compartilhado e imutável que facilita o processo de registro de transações e o rastreamento de ativos em uma rede, o que reduz os riscos e custos para todos os usuários.</p>
+                                    <h4 className="title">• Como funciona o projeto?</h4>
+                                    <p>Somos a primeira empresa brasileira, a produzir NFTs autenticados oficialmente, por estrelas da cultura pop nacional.</p>
 
-                                    <h4 className="title">O que é MetaMask?</h4>
-                                    <p>Metamask é uma carteira de criptoativos que precisa ser instalada como extensão em seu navegador para comprar seu NFTOYER Seu NFT será armazenado no endereço da sua carteira. Após a criação da sua Metamask, o Opensea solicitará sua autorização para acessá-la, então você estará pronto para negociar seus NFTs. <a href="https://metamask.io/" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Saiba mais sobre Metamask</a> e como é fácil de usar!</p>
+                                    <h4 className="title">• Como funciona uma coleção?</h4>
+                                    <p>Cada coleção trará uma estrela em sua versão NFTOYER®, contextualizada a um tema que representa sua personalidade e seu universo. As figuras são comercializadas dentro de suas próprias embalagens e traz consigo alguns itens que formam o conjunto daquela edição. <br/><br/>
+                                    Nossa fábricação de brinquedos digitais opera de forma única. As coleções tem tiragens limitadas e não serão relançadas por nós novamente!</p>
 
-                                    <h4 className="title">O que é OpenSea?</h4>
-                                    <p>Atualmente, Opensea é o site mais popular do mundo para compra, venda e negociação de criptoativos.</p>
+                                    <h4 className="title">• Whitelist?!</h4>
+                                    <p><spam style={{fontWeight:'800'}}>Não temos whitelist!</spam> Fique de olho em nossas redes sociais para saber dos próximos lançamentos.</p>
 
-                                    <h4 className="title">O que é mint?</h4>
-                                    <p>Mint é o processo computacional de validação de informações para a criação de um token na blockchain.</p>
+                                    <h4 className="title">• Onde posso comprar um NFTOYER®?</h4>
+                                    <p>Nossos NFTs são comercializados em Ethereum e podem ser adquiridos na plataforma <a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>OpenSea</a></p>
 
-                                    <h4 className="title">Como posso saber mais sobre o projeto?</h4>
-                                    <p>Fique atento em nossas redes sociais, estaremos publicando todas as novidades diariamente!<a href="https://discord.gg/QSZbAntmmM" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}> Participe também da nossa comunidade no Discord!</a></p>
+                                    <h4 className="title">• Como posso saber mais sobre o projeto?</h4>
+                                    <p>Fique atento em nossas redes sociais, estaremos publicando todas as novidades diariamente!<a href="https://discord.gg/Z6mfaDzzub" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}> Participe também da nossa comunidade no Discord!</a></p>
 
                                 </div>
                             </div>

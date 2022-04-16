@@ -8,7 +8,7 @@ const SocialShare = [
     {Social: <img src="/assets/images/logo/opensea-white.svg"/> , link: 'https://opensea.io/nftoyer'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/nftoyer'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/nftoyer/'},
-    {Social: <FaDiscord /> , link: 'https://discord.gg/QSZbAntmmM'},
+    {Social: <FaDiscord /> , link: 'https://discord.gg/Z6mfaDzzub'},
     {Social: <SiTiktok /> , link: 'https://www.tiktok.com/@nftoyer'},
 ]
 class HeaderThree extends Component{
@@ -74,7 +74,7 @@ class HeaderThree extends Component{
                     <div className="header-left d-flex align-items-center">
                         <div className="logo">
                             <a href={this.props.homeLink}>
-                                <img src="/assets/images/logo/nftoyer-logo.svg" alt="NFToyer" />
+                                <img src="/assets/images/logo/nftoyer-logo.svg" alt="NFTOYER®" />
                             </a>
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">

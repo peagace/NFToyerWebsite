@@ -8,14 +8,14 @@ const BlogContent = [
     {
         images: '02',
         title: 'EM BREVE',
-        category: '',
+        category: '#02',
         link: '/'
     },
 
     {
         images: '02',
         title: 'EM BREVE',
-        category: '',
+        category: '#03',
         link: '/'
     },
 ]

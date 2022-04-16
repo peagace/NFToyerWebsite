@@ -9,45 +9,57 @@ import HeaderThree from "../component/header/HeaderThree";
 const ChoraoSkatistaList = [
     {
         image: '1',
-        category: 'Figura colecionável',
+        category: '15 unidades',
         title: '#01 Chorão Skatista - Gold',
         linkCompra: 'https://opensea.io/nftoyer'
     },
     {
         image: '2',
-        category: 'Figura colecionável',
+        category: '250 unidades',
         title: '#01 Chorão Skatista - Silver',
         linkCompra: 'https://opensea.io/nftoyer'
     },
     {
         image: '3',
-        category: 'Figura colecionável',
+        category: '5.000 unidades',
         title: '#01 Chorão Skatista - Carbon',
         linkCompra: 'https://opensea.io/nftoyer'
     },
     {
         image: '4',
-        category: 'Acessório',
+        category: '2.500 unidades',
+        title: '#01 Chorão Skatista - Accessory',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    {
+        image: '4',
+        category: '2.500 unidades',
+        title: '#01 Chorão Skatista - Accessory',
+        linkCompra: 'https://opensea.io/nftoyer'
+    },
+    {
+        image: '4',
+        category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory',
         linkCompra: 'https://opensea.io/nftoyer'
     },
     {
         image: '5',
-        category: 'Desenho técnico',
-        title: '#01 Chorão Skatista - Blueprint',
+        category: '1 unidade',
+        title: '#01 Chorão Skatista - Mystery Box',
         linkCompra: 'https://opensea.io/nftoyer'
     },
     {
         image: '6',
-        category: 'Conceito',
-        title: '#01 Chorão Skatista - Concept',
+        category: '1 unidade',
+        title: '#01 Chorão Skatista - Blueprint',
         linkCompra: 'https://opensea.io/nftoyer'
     },
     ,
     {
         image: '7',
-        category: 'Item misterioso',
-        title: '#01 Chorão Skatista - Mystery Box',
+        category: '1 unidade',
+        title: '#01 Chorão Skatista - Concept',
         linkCompra: 'https://opensea.io/nftoyer'
     }
 ];
@@ -101,9 +113,7 @@ const ChoraoSkatistaList = [
 class PortfolioChorao extends Component {
     render() {
         return (
-            <React.Fragment>
-
-                <PageHelmet pageTitle='NTFTOYER | Chorão Charlie Brown Jr.' />
+            <React.Fragment>      
 
 
                 {/* Start Breadcrump Area */}

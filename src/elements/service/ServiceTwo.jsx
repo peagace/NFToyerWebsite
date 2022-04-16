@@ -11,8 +11,8 @@ const ServiceList = [
     },
     {
         icon: <FiTrendingUp />,
-        title: 'Invista',
-        description: 'Peças raras e exemplares únicos com valores mais altos ao passar dos anos.'
+        title: 'Autenticado',
+        description: 'Peças raras e exemplares únicos autenticados oficialmente.'
     },
     {
         icon: <FiUploadCloud />,
@@ -47,8 +47,8 @@ class ServiceTwo extends Component {
     }
 
     render() {
-        let title = "Por que ter um NFTOYER?",
-            description = 'Não importa a sua idade, tão pouco o tamanho da sua carteira de criptomoedas, ter um NFTOYER é a oportunidade de ter uma peça única de sua estrela predileta em sua coleção. Tenha a posse de um artigo autenticado único de uma estrela consagrada, que não corre riscos de deterioração com o tempo, que não irá ocupar espaço em sua casa e faça parte do futuro dos investimentos.';
+        let title = "Por que um NFTOYER®?",
+            description = 'Não importa a sua idade, tão pouco o tamanho da sua carteira de criptomoedas, ter um NFTOYER® é a oportunidade de ter uma peça única de sua estrela predileta em sua coleção. Tenha a posse de um artigo autenticado único de uma estrela consagrada, que não corre riscos de deterioração com o tempo, que não irá ocupar espaço em sua casa e faça parte do mercado digital do futuro.';
 
         return (
             <React.Fragment>
@@ -83,7 +83,7 @@ class ServiceTwo extends Component {
                                 <div className="section-title text-left mb--30" >
                                     <FiX style={{ position: 'absolute', top: '0%', left: '95%', cursor: 'pointer' }} size={50} color={'white'} onClick={this.handleCloseModal} />
                                     
-                                    <h2 className="title" style={{ color: "white", maxWidth:'85%', marginTop:'50px' }}>Como comprar um NFT</h2>
+                                    <h2 className="title" style={{ color: "white", maxWidth:'85%', marginTop:'50px' }}>Como comprar um NFTOYER®</h2>
                                     <p style={{ color: "white", maxWidth:'95%', marginTop:'20px', marginBottom:'60px'}}>Siga o passo a passo para realizar a compra de um NFT na plataforma <a href="https://opensea.io" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>OpenSea!</a></p>
 
                                     <h4 >1. Compre o Ethereum (ETH) em alguma exchange</h4>
@@ -98,8 +98,8 @@ class ServiceTwo extends Component {
                                     <h4 style={{maxWidth:'95%'}}>4. Conecte sua carteira MetaMask com o OpenSea</h4>
                                     <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}>Para <a href="https://opensea.io/login?referrer=%2Faccount" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>criar sua conta OpenSea</a> é necessário conectar a sua carteira MetaMask.</p>
 
-                                    <h4 style={{maxWidth:'95%'}}>5. Compre o seu NFTOYER</h4>
-                                    <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}><a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Escolha o seu NFTOYER</a> e finalize as transações a partir da MetaMask.</p>
+                                    <h4 style={{maxWidth:'95%'}}>5. Compre o seu NFTOYER®</h4>
+                                    <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}><a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Escolha o seu NFTOYER®</a> e finalize as transações a partir da MetaMask.</p>
 
                                     <div className="service-btn">
                                         <a className="btn-transparent rn-btn-dark" onClick={this.handleCloseModal} style={{ cursor: 'pointer' }}><span className="text">Fechar</span></a>
@@ -114,9 +114,9 @@ class ServiceTwo extends Component {
                     <div className="col-lg-4 col-12">
                         <div className="section-title mt--30 mt_md--5 mt_mobile--5 mb_mobile--10">
                             <h2 className="title">{title}</h2>
-                            <p>{description}</p>
+                            <p  style={{textAlign:"justify"}}>{description}</p>
                             <div className="service-btn">
-                                <a className="btn-transparent rn-btn-dark" onClick={this.handleOpenModal} style={{ cursor: 'pointer' }}><span className="text">Como comprar um NFT</span></a>
+                                <a className="btn-transparent rn-btn-dark" onClick={this.handleOpenModal} style={{ cursor: 'pointer' }}><span className="text">Como comprar um NFTOYER®</span></a>
                             </div>
                         </div>
                     </div>

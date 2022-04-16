@@ -30,8 +30,8 @@ const ProgressOne = (props) => {
             </div>
 
             <div className="single-progress">
-                <h4 style={{maxWidth:'90%'}}>4. METAVERSO</h4>
-                <p style={{marginTop:"-15px", maxWidth:'90%'}}>A sua coleção de NFTOYERs para o Metaverso da META e outras plataformas.</p> 
+                <h4 style={{maxWidth:'90%'}}>4. Produção física</h4>
+                <p style={{marginTop:"-15px", maxWidth:'90%'}}>NFTOYERs fora do digital. Bonecos físicos para os holders dos NFTs.</p> 
                   
                 <ProgressBar now={0}/>
                 <span className="label">0%</span>
@@ -40,14 +40,6 @@ const ProgressOne = (props) => {
             <div className="single-progress">
                 <h4 style={{maxWidth:'90%'}}>5. Expansão Internacional</h4>
                 <p style={{marginTop:"-15px", maxWidth:'90%'}}>NFTOYERs para o mundo. Criação de estrelas internacionais.</p> 
-                  
-                <ProgressBar now={0}/>
-                <span className="label">0%</span>
-            </div>
-
-            <div className="single-progress">
-                <h4 style={{maxWidth:'90%'}}>6. Produção física</h4>
-                <p style={{marginTop:"-15px", maxWidth:'90%'}}>NFTOYERs fora do digital. Bonecos físicos para os holders dos NFTs.</p> 
                   
                 <ProgressBar now={0}/>
                 <span className="label">0%</span>
