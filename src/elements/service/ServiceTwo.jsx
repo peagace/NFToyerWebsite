@@ -16,7 +16,7 @@ const ServiceList = [
     },
     {
         icon: <FiUploadCloud />,
-        title: 'Inclusão',
+        title: 'Inclusão Digital',
         description: 'O caminho mais fácil e estiloso para a sua entrada no Metaverso.'
     },
     {
@@ -99,7 +99,7 @@ class ServiceTwo extends Component {
                                     <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}>Para <a href="https://opensea.io/login?referrer=%2Faccount" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>criar sua conta OpenSea</a> é necessário conectar a sua carteira MetaMask.</p>
 
                                     <h4 style={{maxWidth:'95%'}}>5. Compre o seu NFTOYER®</h4>
-                                    <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}><a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Escolha o seu NFTOYER®</a> e finalize as transações a partir da MetaMask.</p>
+                                    <p style={{marginTop:"-5px", maxWidth:'95%', marginBottom:'50px'}}><a href="https://opensea.io/collection/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>Escolha o seu NFTOYER®</a> e finalize as transações a partir da MetaMask.</p>
 
                                     <div className="service-btn">
                                         <a className="btn-transparent rn-btn-dark" onClick={this.handleCloseModal} style={{ cursor: 'pointer' }}><span className="text">Fechar</span></a>

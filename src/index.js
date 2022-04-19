@@ -41,9 +41,9 @@ class Root extends Component{
                {/* <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" /> */}
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Soon}/>
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/`} component={Soon}/> */}
                         <Route exact path={`${process.env.PUBLIC_URL}/chorao`} component={PortfolioChorao}/>
-                        <Route path={`${process.env.PUBLIC_URL}/home`} component={Demo}/>
+                        <Route path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
                     </Switch>
                     {/* <Footer/> */}
                 </PageScrollTop>

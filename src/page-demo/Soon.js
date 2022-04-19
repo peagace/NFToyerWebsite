@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebookF, FaTwitter, FaDiscord} from "react-icons/fa";
 import {SiTiktok } from "react-icons/si";
 
 const SocialShare = [
-    {Social: <img src="/assets/images/logo/opensea-white.svg"/> , link: 'https://opensea.io/nftoyer'},
+    {Social: <img src="/assets/images/logo/opensea-white.svg"/> , link: 'https://opensea.io/collection/nftoyer'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/nftoyer'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/nftoyer/'},
     {Social: <FaDiscord /> , link: 'https://discord.gg/QSZbAntmmM'},

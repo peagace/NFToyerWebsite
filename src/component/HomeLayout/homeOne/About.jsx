@@ -1,7 +1,6 @@
 import React, { Component, useRef, Suspense } from "react";
 import { Canvas, Mesh, } from '@react-three/fiber'
 import { PresentationControls, ContactShadows, Stage, Float, Loader, Environment, SpotLight } from '@react-three/drei'
-import Model from "../../model";
 import Model00 from "../../model00";
 import { Link } from "react-router-dom";
 
@@ -30,7 +29,7 @@ class About extends Component {
                                             {/* <ContactShadows rotation-x={Math.PI / 2} position={[0, 0, 0]} color={} width={10} height={10} blur={2.6} far={2} /> */}
                                         </Canvas>
                                     </Suspense>
-                                    <img src="/assets/images/about/touchinteraction.png" />
+                                    <img src="/assets/images/about/touchinteraction.png" style={{marginBottom:'35px'}}/>
 
                                 </div>
                             </div>
@@ -39,7 +38,7 @@ class About extends Component {
                                 <div className="about-inner inner">
                                     <div className="section-title">
                                         <h2 className="title">Sobre</h2>
-                                        <p className="description">Somos a primeira empresa brasileira de<spam style={{ fontWeight: '900' }}> Figuras Colecionáveis em NFT, autenticadas oficialmente</spam> por estrelas da cultura pop nacional.</p>
+                                        <p className="description">Somos a primeira empresa brasileira de<spam style={{ fontWeight: '900' }}> figuras colecionáveis em NFT, autenticadas oficialmente</spam> por estrelas da cultura pop nacional.</p>
 
                                         <div className="container">
                                             <div className="row">
@@ -72,7 +71,7 @@ class About extends Component {
                                         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
                                                 <h3 className="title">NFTOYERs</h3>
-                                                <p style={{ textAlign: "justify" }}>Cada coleção trará uma estrela em sua versão NFTOYER®, contextualizada a um tema que representa sua personalidade e seu universo. As figuras são comercializadas dentro de suas próprias embalagens, para preservar seu estado de conservação e traz consigo alguns itens que formam o conjunto daquela edição. Nossa fábricação de brinquedos digitais opera de forma única. As coleções tem tiragens limitadas e não serão relançadas por nós novamente!</p>
+                                                <p style={{ textAlign: "justify" }}>Cada coleção trará uma estrela em sua versão NFTOYER®, contextualizada a um tema que representa sua personalidade e seu universo. As figuras são comercializadas dentro de suas próprias embalagens, para preservar seu estado de conservação e traz consigo alguns itens que formam o conjunto daquela edição. Nossa fabricação de brinquedos digitais opera de forma única. As coleções tem tiragens limitadas e não serão relançadas por nós novamente!</p>
                                             </div>
                                         </div>
 

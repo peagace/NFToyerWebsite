@@ -18,7 +18,7 @@ const SlideList = [
         category: 'SEJA BEM-VINDO AO METAVERSO!',
         description: '',
         buttonText: 'Ver Coleções',
-        buttonLink: 'https://opensea.io/nftoyer'
+        buttonLink: 'https://opensea.io/collection/nftoyer'
     }
 ]
 
@@ -72,7 +72,7 @@ const PortfolioLanding = () => {
                                             {value.category ? <span>{value.category}</span> : ''}
                                             <h1 className="title">Figuras colecionáveis<br />em NFT para <br />
                                                 <TextLoop>
-                                                    <span> Colecionar.</span>
+                                                    <span> Manter.</span>
                                                     <span> Presentear.</span>
                                                     <span> Compartilhar.</span>
                                                 </TextLoop>{" "}
@@ -113,12 +113,12 @@ const PortfolioLanding = () => {
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="section-title text-left">
                                     <h2>Coleções</h2>
-                                    <p>Comerializamos nossos NFTOYERs pela plataforma OpenSea.</p>
+                                    <p>Comercializamos nossos NFTOYERs pela plataforma OpenSea.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
-                                    <a className="btn-transparent rn-btn-dark" href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer"><span className="text">Ver todas coleções</span></a>
+                                    <a className="btn-transparent rn-btn-dark" href="https://opensea.io/collection/nftoyer" target="_blank" rel="noopener noreferrer"><span className="text">Ver todas coleções</span></a>
                                 </div>
                             </div>
                         </div>
@@ -200,6 +200,7 @@ const PortfolioLanding = () => {
             {/* ROADMAP */}
 
             {/* Start About Area  */}
+            <div id="roadmap" className="fix">
             <div className="rn-about-area ptb--120 bg_color--5">
                 <div className="rn-about-wrapper">
                     <div className="container">
@@ -229,6 +230,7 @@ const PortfolioLanding = () => {
                     </div>
                 </div>
             </div>
+            </div>
             {/* End About Area  */}
 
             {/* FAQ */}
@@ -251,16 +253,16 @@ const PortfolioLanding = () => {
 
                                     <h4 className="title">• Como funciona uma coleção?</h4>
                                     <p>Cada coleção trará uma estrela em sua versão NFTOYER®, contextualizada a um tema que representa sua personalidade e seu universo. As figuras são comercializadas dentro de suas próprias embalagens e traz consigo alguns itens que formam o conjunto daquela edição. <br/><br/>
-                                    Nossa fábricação de brinquedos digitais opera de forma única. As coleções tem tiragens limitadas e não serão relançadas por nós novamente!</p>
+                                    Nossa fabricação de brinquedos digitais opera de forma única. As coleções tem tiragens limitadas e não serão relançadas por nós novamente!</p>
 
                                     <h4 className="title">• Whitelist?!</h4>
                                     <p><spam style={{fontWeight:'800'}}>Não temos whitelist!</spam> Fique de olho em nossas redes sociais para saber dos próximos lançamentos.</p>
 
                                     <h4 className="title">• Onde posso comprar um NFTOYER®?</h4>
-                                    <p>Nossos NFTs são comercializados em Ethereum e podem ser adquiridos na plataforma <a href="https://opensea.io/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>OpenSea</a></p>
+                                    <p>Nossos NFTs são comercializados em Ethereum e podem ser adquiridos na plataforma <a href="https://opensea.io/collection/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>OpenSea</a></p>
 
                                     <h4 className="title">• Como posso saber mais sobre o projeto?</h4>
-                                    <p>Fique atento em nossas redes sociais, estaremos publicando todas as novidades diariamente!<a href="https://discord.gg/Z6mfaDzzub" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}> Participe também da nossa comunidade no Discord!</a></p>
+                                    <p>Fique atento em nossas redes sociais! Todas as novidades serão publicadas diariamente!<a href="https://discord.gg/Z6mfaDzzub" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}> Participe também da nossa comunidade no Discord!</a></p>
 
                                 </div>
                             </div>

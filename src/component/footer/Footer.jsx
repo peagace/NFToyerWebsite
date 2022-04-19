@@ -4,7 +4,7 @@ import { ReactComponent as OpenSea } from '../../../public/assets/images/logo/op
 import {SiTiktok } from "react-icons/si";
 
 const SocialShare = [
-    {Social: <OpenSea src="/assets/images/logo/opensea.svg"/> , link: 'https://opensea.io/nftoyer'},
+    {Social: <OpenSea src="/assets/images/logo/opensea.svg"/> , link: 'https://opensea.io/collection/nftoyer'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/nftoyer'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/nftoyer/'},
     {Social: <FaDiscord /> , link: 'https://discord.gg/Z6mfaDzzub'},
@@ -23,7 +23,7 @@ class Footer extends Component{
                                     <div className="inner">
                                         <span style={{textShadow:'1px 1px 3px #211C33'}}>Faça parte do Metaverso</span>
                                         <h2 style={{textShadow:'1px 1px 15px #211C33', fontSize:'50px', lineHeight:"1.2"}}>VENHA SER UM<br/>NFTOYER<spam style={{fontSize:'25px'}}>®</spam>!</h2>
-                                        <a className="rn-button-style--2" target="_blank" rel="noopener noreferrer" href='https://opensea.io/nftoyer' style={{boxShadow:'1px 1px 3px #211C33'}}>
+                                        <a className="rn-button-style--2" target="_blank" rel="noopener noreferrer" href='https://opensea.io/collection/nftoyer' style={{boxShadow:'1px 1px 3px #211C33'}}>
                                             <span style={{textShadow:'1px 1px 3px #211C33'}}>Comprar</span>
                                         </a>
                                     </div>

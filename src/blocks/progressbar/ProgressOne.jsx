@@ -23,7 +23,7 @@ const ProgressOne = (props) => {
 
             <div className="single-progress">
                 <h4 style={{maxWidth:'90%'}}>3. App de TV</h4>
-                <p style={{marginTop:"-15px", maxWidth:'90%'}}>Aplicativo para Smart TV's que permite a exibição da sua coleção com de NFTOYERs com a função Modo Arte.</p> 
+                <p style={{marginTop:"-15px", maxWidth:'90%'}}>Aplicativo para Smart TV's que permite a exibição da sua coleção de NFTOYERs com a função Modo Arte.</p> 
                   
                 <ProgressBar now={2}/>
                 <span className="label">2%</span>

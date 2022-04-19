@@ -5,7 +5,7 @@ import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <img src="/assets/images/logo/opensea-white.svg"/> , link: 'https://opensea.io/nftoyer'},
+    {Social: <img src="/assets/images/logo/opensea-white.svg"/> , link: 'https://opensea.io/collection/nftoyer'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/nftoyer'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/nftoyer/'},
     {Social: <FaDiscord /> , link: 'https://discord.gg/Z6mfaDzzub'},

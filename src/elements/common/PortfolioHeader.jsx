@@ -31,7 +31,7 @@ class PortfolioHeader extends Component {
                                             <h4 style={{ marginTop: '20px', textShadow: '1px 1px 3px black' }}>Sobre</h4>
                                             <p style={{ textAlign: 'justify', maxWidth: '430px', fontSize: '14px', lineHeight: '1.7', color: 'white', textShadow: '1px 1px 3px black' }}>Alexandre Magno Abrão nasceu em São Paulo, no dia 9 de abril de 1970, mais conhecido como Chorão, foi um cantor, compositor, skatista, cineasta, roteirista e empresário brasileiro. Fundou a banda Charlie Brown Jr. em 1992, que seguia a linha hardcore com influências do punk rock californiano, e mistura vários ritmos como o reggae, o hip-hop, criando um estilo próprio.</p>
                                             <div className="portfolio-button" style={{ marginTop: '10px', boxShadow: '1px 1px 3px black' }}>
-                                                <a className="rn-btn" target="_blank" rel="noopener noreferrer" href={'https://opensea.io/nftoyer'} style={{textShadow: '1px 1px 3px black' }}>Ver no OpenSea</a>
+                                                <a className="rn-btn" target="_blank" rel="noopener noreferrer" href={'https://opensea.io/collection/nftoyer'} style={{textShadow: '1px 1px 3px black' }}>Ver no OpenSea</a>
                                             </div>
 
                                         </div>

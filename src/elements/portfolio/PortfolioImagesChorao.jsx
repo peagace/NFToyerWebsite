@@ -6,44 +6,44 @@ const PortfolioList = [
         image: '1',
         category: 'Figura colecionável',
         title: '#01 Chorão Skatista - Gold',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '2',
         category: 'Figura colecionável',
         title: '#01 Chorão Skatista - Silver',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '3',
         category: 'Figura colecionável',
         title: '#01 Chorão Skatista - Carbon',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '4',
         category: 'Acessório',
         title: '#01 Chorão Skatista - Accessory',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '5',
         category: 'Desenho técnico',
         title: '#01 Chorão Skatista - Blueprint',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '6',
         category: 'Conceito',
         title: '#01 Chorão Skatista - Concept',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     ,
     {
         image: '7',
         category: 'Item misterioso',
         title: '#01 Chorão Skatista - Mystery Box',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     }
 ]
 

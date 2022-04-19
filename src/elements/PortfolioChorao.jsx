@@ -11,56 +11,56 @@ const ChoraoSkatistaList = [
         image: '1',
         category: '15 unidades',
         title: '#01 Chorão Skatista - Gold',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '2',
         category: '250 unidades',
         title: '#01 Chorão Skatista - Silver',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '3',
         category: '5.000 unidades',
         title: '#01 Chorão Skatista - Carbon',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '4',
         category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '4',
         category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '4',
         category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '5',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Mystery Box',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '6',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Blueprint',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     ,
     {
         image: '7',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Concept',
-        linkCompra: 'https://opensea.io/nftoyer'
+        linkCompra: 'https://opensea.io/collection/nftoyer'
     }
 ];
 
@@ -110,6 +110,36 @@ const ChoraoSkatistaList = [
 //     }
 // ]
 
+var countDownDate = new Date("May 5, 2022 19:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+
+
 class PortfolioChorao extends Component {
     render() {
         return (
@@ -129,7 +159,8 @@ class PortfolioChorao extends Component {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className="section-title text-left service-style--3 mb--30">
-                                            <h2 className="title"><spam style={{ color: '#6C1FE5' }}>#01</spam> Chorão Skatista</h2>
+                                            <h2 className="title"><spam style={{ color: '#6C1FE5' }}>#01</spam> Chorão Skatista</h2>                                            
+                                            <h4 style={{textAlign:'left', fontWeight:'200'}}>Disponível em: <spam id="demo" style={{textAlign:'left', color:"white", fontWeight:'800'}}/></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +178,7 @@ class PortfolioChorao extends Component {
                                                     <p className="portfoliotype">{value.category}</p>
                                                     <h4 className="title"><a href={value.linkCompra}>{value.title}</a></h4>
                                                     <div className="portfolio-btn">
-                                                        <a className="rn-btn text-white" target="_blank" rel="noopener noreferrer" href={value.linkCompra}>Comprar</a>
+                                                        <a className="rn-btn text-white" target="_blank" rel="noopener noreferrer" href={value.linkCompra}>Ver no OpenSea</a>
                                                     </div>
                                                 </div>
                                             </div>
