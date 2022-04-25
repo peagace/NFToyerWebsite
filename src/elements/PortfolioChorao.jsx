@@ -15,7 +15,7 @@ const ChoraoSkatistaList = [
     },
     {
         image: '2',
-        category: '250 unidades',
+        category: '500 unidades',
         title: '#01 Chorão Skatista - Silver',
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
@@ -28,19 +28,19 @@ const ChoraoSkatistaList = [
     {
         image: '4',
         category: '2.500 unidades',
-        title: '#01 Chorão Skatista - Accessory',
+        title: '#01 Chorão Skatista - Accessory A',
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '4',
         category: '2.500 unidades',
-        title: '#01 Chorão Skatista - Accessory',
+        title: '#01 Chorão Skatista - Accessory B',
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
         image: '4',
         category: '2.500 unidades',
-        title: '#01 Chorão Skatista - Accessory',
+        title: '#01 Chorão Skatista - Accessory C',
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
