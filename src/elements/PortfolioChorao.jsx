@@ -32,32 +32,32 @@ const ChoraoSkatistaList = [
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
-        image: '4',
+        image: '5',
         category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory B',
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
-        image: '4',
+        image: '6',
         category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory C',
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
-        image: '5',
+        image: '7',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Mystery Box',
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     {
-        image: '6',
+        image: '8',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Blueprint',
         linkCompra: 'https://opensea.io/collection/nftoyer'
     },
     ,
     {
-        image: '7',
+        image: '9',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Concept',
         linkCompra: 'https://opensea.io/collection/nftoyer'
