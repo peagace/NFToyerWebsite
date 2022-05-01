@@ -38,8 +38,8 @@ class Footer extends Component{
                                                 <h4>NFTOYER®</h4>
                                                 <ul className="ft-link">
                                                     <li><a href="/">Home</a></li>
-                                                    <li><a href="#galeria">Coleções</a></li>
-                                                    <li><a href="#contato">Contato</a></li>
+                                                    <li><a href="/#galeria">Coleções</a></li>
+                                                    <li><a href="/#contato">Contato</a></li>
                                                 </ul>
                                             </div>
                                         </div>

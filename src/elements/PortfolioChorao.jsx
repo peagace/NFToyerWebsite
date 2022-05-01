@@ -4,7 +4,7 @@ import PortfolioHeader from "./common/PortfolioHeader";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Footer from "../component/footer/Footer";
-import HeaderThree from "../component/header/HeaderThree";
+import HeaderOut from "../component/header/HeaderOut";
 
 const ChoraoSkatistaList = [
     {
@@ -150,17 +150,20 @@ class PortfolioChorao extends Component {
                 <PortfolioHeader title={'Chorão - Charlie Brown Jr.'} />
                 {/* End Breadcrump Area */}
                 <div className="active-dark">
-                    <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+                    <HeaderOut homeLink="/" logo="symbol-dark" color="color-black" />
 
                     {/*#01 Chorão Skatista*/}
+                    <div id="galeria" className="fix">
                     <div className="creative-portfolio-wrapper ptb--120 bg_color--1">
                         <div className="container plr--10">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
-                                        <div className="section-title text-left service-style--3 mb--30">
-                                            <h2 className="title"><spam style={{ color: '#6C1FE5' }}>#01</spam> Chorão Skatista</h2>                                            
-                                            <h4 style={{textAlign:'left', fontWeight:'200'}}>Disponível em: <spam id="demo" style={{textAlign:'left', color:"white", fontWeight:'800'}}/></h4>
+                                        
+                                            <div className="section-title text-left service-style--3 mb--30">
+                                                <h2 className="title"><spam style={{ color: '#6C1FE5' }}>#01</spam> Chorão Skatista</h2>                                            
+                                                <h4 style={{textAlign:'left', fontWeight:'200'}}>Disponível em: <spam id="demo" style={{textAlign:'left', color:"white", fontWeight:'800'}}/></h4>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -19,7 +19,7 @@ class PortfolioHeader extends Component {
                                 <div className="breadcrumb-inner pt--100" >
                                     <div className="active-dark" style={{ backgroundColor: "transparent" }}>
 
-                                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'start', alignItems: 'flex-start', paddingTop: '10px'}}>
+                                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'start', alignItems: 'flex-start', paddingTop: '10px'}} id="sobre" className="fix">
                                             <img src="/assets/images/team/parceiro-01.png" alt="Chorão" />
                                             <h2 style={{ marginTop: '25px', textShadow: '1px 1px 3px black' }}>CHORÃO</h2>
                                             <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
