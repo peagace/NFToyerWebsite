@@ -209,7 +209,7 @@ const PortfolioLanding = () => {
                                 <div className="about-inner inner">
                                     <div className="section-title">
                                         <h2 className="title">Roadmap</h2>
-                                        <p className="description">Queremos criar o universo NFTOYER®, onde colecionar figuras digitais com a experiência de produtos físicos é só o começo.</p>
+                                        <p className="description">Vamos criar o universo NFTOYER®, onde colecionar figuras digitais com a experiência de produtos físicos é só o começo.</p>
                                     </div>
                                     <div className="row mt--30">
                                         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -255,11 +255,14 @@ const PortfolioLanding = () => {
                                     <p>Cada coleção trará uma estrela em sua versão NFTOYER®, contextualizada a um tema que representa sua personalidade e seu universo. As figuras são comercializadas dentro de suas próprias embalagens e traz consigo alguns itens que formam o conjunto daquela edição. <br/><br/>
                                     Nossa fabricação de brinquedos digitais opera de forma única. As coleções tem tiragens limitadas e não serão relançadas por nós novamente!</p>
 
+                                    <h4 className="title">• Por que a rede Polygon?</h4>
+                                    <p><spam style={{fontWeight:'800'}}>Para oferecer um NFT acessível aos brasileiros.</spam> Optamos pela rede Polygon por ter custos de transação muito mais baratos do que a rede Mainnet do Ethereum.</p>
+
                                     <h4 className="title">• Whitelist?!</h4>
                                     <p><spam style={{fontWeight:'800'}}>Não temos whitelist!</spam> Fique de olho em nossas redes sociais para saber dos próximos lançamentos.</p>
 
                                     <h4 className="title">• Onde posso comprar um NFTOYER®?</h4>
-                                    <p>Nossos NFTs são comercializados em Ethereum e podem ser adquiridos na plataforma <a href="https://opensea.io/collection/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>OpenSea</a></p>
+                                    <p>Nossos NFTs são comercializados em $ETH na rede Polygon e podem ser adquiridos na plataforma <a href="https://opensea.io/collection/nftoyer" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}>OpenSea</a></p>
 
                                     <h4 className="title">• Como posso saber mais sobre o projeto?</h4>
                                     <p>Fique atento em nossas redes sociais! Todas as novidades serão publicadas diariamente!<a href="https://discord.gg/Z6mfaDzzub" target="_blank" rel="noopener noreferrer" style={{color:'#8f5eef'}}> Participe também da nossa comunidade no Discord!</a></p>

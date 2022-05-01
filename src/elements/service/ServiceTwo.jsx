@@ -115,9 +115,9 @@ class ServiceTwo extends Component {
                         <div className="section-title mt--30 mt_md--5 mt_mobile--5 mb_mobile--10">
                             <h2 className="title">{title}</h2>
                             <p  style={{textAlign:"justify"}}>{description}</p>
-                            <div className="service-btn">
+                            {/* <div className="service-btn">
                                 <a className="btn-transparent rn-btn-dark" onClick={this.handleOpenModal} style={{ cursor: 'pointer' }}><span className="text">Como comprar um NFTOYER®</span></a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-lg-8 col-12 mt_md--50">
