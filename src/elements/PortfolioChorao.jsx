@@ -11,56 +11,56 @@ const ChoraoSkatistaList = [
         image: '1',
         category: '15 unidades',
         title: '#01 Chorão Skatista - Gold',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924760133632000015'
     },
     {
         image: '2',
         category: '500 unidades',
         title: '#01 Chorão Skatista - Silver',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924761233143628276'
     },
     {
         image: '3',
         category: '5.000 unidades',
         title: '#01 Chorão Skatista - Carbon',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924762332655260552'
     },
     {
         image: '4',
         category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory A',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924763432166885828'
     },
     {
         image: '5',
         category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory B',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924764531678513604'
     },
     {
         image: '6',
         category: '2.500 unidades',
         title: '#01 Chorão Skatista - Accessory C',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924765631190141380'
     },
     {
         image: '7',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Mystery Box',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924766730701766657'
     },
     {
         image: '8',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Blueprint',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924767830213394433'
     },
     ,
     {
         image: '9',
         category: '1 unidade',
         title: '#01 Chorão Skatista - Concept',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924768929725022209'
     }
 ];
 

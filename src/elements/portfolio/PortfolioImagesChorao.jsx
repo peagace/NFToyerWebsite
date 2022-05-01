@@ -6,19 +6,19 @@ const PortfolioList = [
         image: '1',
         category: 'Figura colecionável',
         title: '#01 Chorão Skatista - Gold',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924760133632000015'
     },
     {
         image: '2',
         category: 'Figura colecionável',
         title: '#01 Chorão Skatista - Silver',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924761233143628276'
     },
     {
         image: '3',
         category: 'Figura colecionável',
         title: '#01 Chorão Skatista - Carbon',
-        linkCompra: 'https://opensea.io/collection/nftoyer'
+        linkCompra: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/34374241464314140766115780539862918218658797662975086541843924762332655260552'
     },
     {
         image: '4',
